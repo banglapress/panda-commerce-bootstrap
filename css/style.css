@@ -1,0 +1,31 @@
+.panda-margin{
+    margin-top: 80px;
+}
+.panda-slider-bg{
+    background-color: #fceae8;
+}
+.panda-rounded{
+    
+    border-radius: 20px;    
+}
+.categories img{
+    width: 100px;
+}
+.panda-btn{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color:white;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.bag-bg{
+    background-color: #a731a5;
+}
+.shoes-bg{
+    background-color: #2135b1;
+}
+
+.watch-bg{
+    background-color: #ffd200;
+}

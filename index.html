@@ -10,105 +10,112 @@
     <!-- bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- customize css  -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
         <!-- navigation -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white ">
-            <div class="container bg-light">
-                <a class="navbar-brand" href="#">
-                    <img src="images/logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#shoes">Shoes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#bags">Backpacks</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#subscribe">Subscribe</a>
-                        </li>
+        <section class="panda-margin">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white ">
+                <div class="container bg-light ">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#shoes">Shoes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#bags">Backpacks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#subscribe">Subscribe</a>
+                            </li>
 
-                    </ul>
+                        </ul>
 
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </section>
 
         <!-- image slider -->
+        <section>
+            <div id="carouselExampleControls" class="carousel slide container" data-bs-ride="carousel">
+                <div class="carousel-inner panda-rounded ">
+                    <div class="carousel-item active">
+                        <div class="row d-flex align-items-center p-5 panda-slider-bg">
+                            <div class="col-lg-7">
+                                <h1>Cool Dude Headphone</h1>
+                                <p>
+                                    This is the best headphone in the world for people who just want to waste time in
+                                    front of funky world. </p>
+                                <h1>$420</h1>
 
-        <div id="carouselExampleControls" class="carousel slide container mb-2" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row d-flex align-items-center p-5 bg-warning bg-gradient rounded">
-                        <div class="col-lg-7">
-                            <h1>Cool Dude Headphone</h1>
-                            <p>
-                                This is the best headphone in the world for people who just want to waste time in
-                                front of funky world. </p>
-                            <h1>$420</h1>
-
-                            <button class="btn btn-danger">Buy Now</button>
+                                <button class="btn panda-btn">Buy Now</button>
+                            </div>
+                            <div class="col-lg-5 panda-slider-bg">
+                                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                            </div>
                         </div>
-                        <div class="col-lg-5 bg-warning bg-gradient">
-                            <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center p-5 panda-slider-bg">
+                            <div class="col-lg-7">
+                                <h1>X-Box for your living room</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatem
+                                    architecto necessitatibus corporis.
+                                </p>
+                                <h1>$600</h1>
+
+                                <button class="btn panda-btn">Buy Now</button>
+                            </div>
+                            <div class="col-lg-5 panda-slider-bg">
+                                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center p-5 panda-slider-bg">
+                            <div class="col-lg-7">
+                                <h1>Mega LED TV</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatem
+                                    architecto necessitatibus corporis.</p>
+                                <h1>$1200</h1>
+
+                                <button class="btn panda-btn">Buy Now</button>
+                            </div>
+                            <div class="col-lg-5 panda-slider-bg">
+                                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="row d-flex align-items-center p-5 bg-warning bg-gradient rounded">
-                        <div class="col-lg-7">
-                            <h1>Cool Dude Headphone</h1>
-                            <p>
-                                This is the best headphone in the world for people who just want to waste time in
-                                front of funky world. </p>
-                            <h1>$420</h1>
-
-                            <button class="btn btn-danger">Buy Now</button>
-                        </div>
-                        <div class="col-lg-5 bg-warning bg-gradient">
-                            <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row d-flex align-items-center p-5 bg-warning bg-gradient rounded">
-                        <div class="col-lg-7">
-                            <h1>Cool Dude Headphone</h1>
-                            <p>
-                                This is the best headphone in the world for people who just want to waste time in
-                                front of funky world. </p>
-                            <h1>$420</h1>
-
-                            <button class="btn btn-danger">Buy Now</button>
-                        </div>
-                        <div class="col-lg-5 bg-warning bg-gradient">
-                            <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+        </section>
+
 
 
 
@@ -117,23 +124,22 @@
     <main>
         <!-- category Section -->
         <section>
-            <div class="container my-5">
+            <div class="container my-5 categories">
                 <div class="row g-4">
-                    <div class="col-lg-4">
-                        <div class="p-3 border rounded bg-warning d-flex align-items-center justify-content-between">
+                    <div class="col-lg-4 ">
+                        <div class="py-3 watch-bg px-5 panda-rounded d-flex align-items-center justify-content-between">
                             <h1 class="text-white">Watch</h1>
                             <img src="images/categories/watch.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="p-3 border bg-danger d-flex align-items-center justify-content-between"
-                            style="border-radius:20px;">
+                        <div class="py-3 px-5 bag-bg panda-rounded d-flex align-items-center justify-content-between">
                             <h1 class="text-white">Bag</h1>
                             <img src="images/categories/bag.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="p-3 border rounded bg-primary d-flex align-items-center justify-content-between">
+                        <div class="py-3 px-5 shoes-bg panda-rounded d-flex align-items-center justify-content-between">
                             <h1 class="text-white">Shoes</h1>
                             <img src="images/categories/shoes.png" alt="">
                         </div>
@@ -146,7 +152,7 @@
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
-                    <div class="card h-100 border-0 shadow-lg" style="border-radius:20px;">
+                    <div class="card h-100 border-0 shadow-lg panda-rounded">
                         <img src="images/shoes/shoe-1.png" class=" card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Nike 350</h5>
@@ -156,12 +162,12 @@
                         </div>
                         <div class="m-3">
                             <h2>$120</h2>
-                            <button class="btn btn-danger">BUY NOW</button>
+                            <button class="btn panda-btn">Buy Now >></button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 border-0 shadow-lg" style="border-radius:20px;">
+                    <div class="card h-100 border-0 shadow-lg panda-rounded">
                         <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Supply 360</h5>
@@ -170,13 +176,13 @@
                         </div>
                         <div class="m-3">
                             <h2>$320</h2>
-                            <button class="btn btn-danger">BUY NOW</button>
+                            <button class="btn panda-btn">Buy Now >></button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
 
-                    <div class="card h-100 border-0 shadow-lg" style="border-radius:20px;">
+                    <div class="card h-100 border-0 shadow-lg panda-rounded">
                         <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Red Airmax</h5>
@@ -186,7 +192,7 @@
                         </div>
                         <div class="m-3">
                             <h2>$350</h2>
-                            <button class="btn btn-danger">BUY NOW</button>
+                            <button class="btn panda-btn">Buy Now >></button>
                         </div>
                     </div>
                 </div>
@@ -197,7 +203,7 @@
             <h2 class="pb-2">Backpacks</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
-                    <div class="card h-100 border-0 shadow-lg" style="border-radius:20px;">
+                    <div class="card h-100 border-0 shadow-lg panda-rounded">
                         <img src="images/bags/bag-1.png" class=" card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Red Laltu Bag</h5>
@@ -205,12 +211,12 @@
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-danger">BUY NOW</button>
+                            <button class="btn panda-btn">Buy Now >></button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 border-0 shadow-lg" style="border-radius:20px;">
+                    <div class="card h-100 border-0 shadow-lg panda-rounded">
                         <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Blue Niltu Bag</h5>
@@ -218,12 +224,12 @@
                                 content.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-danger">BUY NOW</button>
+                            <button class="btn panda-btn">Buy Now >></button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 border-0 shadow-lg" style="border-radius:20px;">
+                    <div class="card h-100 border-0 shadow-lg panda-rounded">
                         <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Black Kaltu Bag</h5>
@@ -232,7 +238,7 @@
                                 height action.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-danger">BUY NOW</button>
+                            <button class="btn panda-btn">Buy Now >></button>
                         </div>
                     </div>
                 </div>
@@ -240,16 +246,16 @@
         </section>
         <!-- Subscribe Section  -->
 
-        <section style="height: 300px; border-radius: 20px;"
-            class="container bg-info bg-gradient p-5 d-flex justify-content-center align-items-center text-center my-5"
+        <section style="height: 300px;"
+            class="container panda-slider-bg p-5 d-flex justify-content-center align-items-center text-center my-5 panda-rounded"
             id="subscribe">
             <div>
                 <h2>LET'S STAY IN TOUCH
                 </h2>
                 <p>Get updates on sales, specials and more
                 </p>
-                <input type="text" placeholder="Your Email"><br>
-                <button class="btn btn-danger">SUBMIT</button>
+                <input class="form-control" type="text" placeholder="Your Email"><br>
+                <button class="btn panda-btn">SUBMIT</button>
             </div>
         </section>
     </main>
